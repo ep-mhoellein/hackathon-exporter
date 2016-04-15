@@ -1,0 +1,51 @@
+<div class="row">
+    <div class="col-xs-6">
+        <div class="row">
+            <div class="col-xs-5">{{name}}:</div>
+            <div class="col-xs-7">
+                <select class="compare-filter-select" name="{{name}}">
+                    {{#op}}
+                    <option value="{{value}}">{{text}}</option>
+                    {{/op}}
+                </select>
+            </div>
+        </div><!-- //.row -->
+    </div>
+
+    <div class="col-xs-4">
+        <div class="row">
+            <!-- <div class="col-xs-4">
+                {{#input}}{{text}}:{{/input}}
+            </div> -->
+            <div class="col-xs-12">
+                {{#input}}
+                <input type="text" class="compare-filter-input" name="{{name}}" value="" />
+                {{/input}}
+            </div>
+        </div><!-- //.row -->
+    </div>
+
+    <div class="col-xs-2 text-right">
+        <span class="del" title="remove filter"><i class="material-icons">clear</i></span>
+    </div>
+
+
+    <!-- <div class="col-xs-2">
+        {{name}}:
+    </div>
+    <div class="col-xs-4">
+        <select class="compare-filter-select" name="{{name}}">
+            {{#op}}
+            <option value="{{value}}">{{text}}</option>
+            {{/op}}
+        </select>
+    </div>
+    <div class="col-xs-5">
+        {{#input}}
+        {{text}}: <input type="text" class="compare-filter-input" name="{{name}}" value="" />
+        {{/input}}
+    </div>
+    <div class="col-xs-1">
+        <span class="del"><i class="material-icons">clear</i></span>
+    </div> -->
+</div><!-- //.row -->

@@ -1,0 +1,38 @@
+<div class="row">
+    <div class="col-xs-6">
+        <div class="row">
+            <div class="col-xs-5">{{name}}:</div>
+            <div class="col-xs-7">
+                {{#op}}
+                <div>
+                    <input type="radio" class="bool-filter-radio" name="{{name}}" value="{{value}}"> {{text}}
+                </div>
+                {{/op}}
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-4">
+        <div class="row">
+            <div class="col-xs-4"></div>
+            <div class="col-xs-8"></div>
+        </div>
+    </div>
+    <div class="col-xs-2 text-right">
+        <span class="del" title="remove filter"><i class="material-icons">clear</i></span>
+    </div>
+
+    <!-- <div class="col-xs-2">
+        {{name}}:
+    </div>
+    <div class="col-xs-9">
+        {{#op}}
+        <div>
+            <input type="radio" class="bool-filter-radio" name="{{name}}" value="{{value}}">{{text}}
+        </div>
+        {{/op}}
+    </div>
+
+    <div class="col-xs-2">
+        <span class="del"><i class="material-icons">clear</i></span>
+    </div> -->
+</div>

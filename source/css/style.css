@@ -1,0 +1,87 @@
+body {
+  background-color: #e0e0e0;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+.row {
+  margin-bottom: 5px;
+  padding: 6px 0;
+}
+
+.headRow {
+  background: #337ab7;
+  color: #fff;
+  padding: 12px 0;
+}
+
+.borderRow {
+  border: 1px solid #337ab7;
+  margin-top: -12px;
+}
+
+#formFields div.row:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+form.filterform {
+  background-color: white;
+  margin-top: 20px;
+  padding: 20px 30px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  margin: 6px 6px 6px 0;
+}
+
+select {
+  width: 80%;
+}
+
+input[type="checkbox"] {
+  border-radius: 3px;
+  border: 1px solid rgb(224, 224, 224);
+  height: 28px;
+  min-width: 50%;
+}
+
+input.compare-filter-input {
+  border-radius: 3px;
+  border: 1px solid #e0e0e0;
+}
+
+#formFields input[type="text"] {
+  width: 100%;
+  padding: 6px;
+}
+
+#formFields > .row:nth-child(odd) {
+  background-color: #f2f2f2  ;
+}
+
+#formFields > .row:nth-child(even) {
+  background-color: #fff;
+}
+
+#exportLink i.material-icons {
+  vertical-align: middle;
+  padding-right: 3px;
+}
+
+.del .material-icons {
+  padding: 10px;
+  font-size: 20px;
+  color: #rgb(24, 55, 82);
+}
+
+.material-icons:hover {
+  cursor: pointer;
+}
+
+.top-margin-xs {
+  margin-top: 20px;
+}

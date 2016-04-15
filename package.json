@@ -1,0 +1,12 @@
+{
+  "name": "exportapp",
+  "version": "0.0.0",
+  "description": "create a export app for epages",
+  "author": "ep",
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "jquery": "~2.2.3",
+    "jquery-ui": "~1.10.5",
+    "mustache": "~2.2.1"
+  }
+}
